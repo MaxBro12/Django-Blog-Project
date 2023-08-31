@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Balsamiq Sans">@import url(https://fonts.googleapis.com/css2?family=Balsamiq+Sans%3Aital%2Cwght%400%2C400%3B0%2C700%3B1%2C400%3B1%2C700&amp;display=swap);</style>
+  </defs>
+  <text style="fill: none; font-family: 'Balsamiq Sans'; font-size: 60px; font-weight: 700; stroke: rgb(221, 221, 221); stroke-width: 3.22695px; white-space: pre;" transform="matrix(1, 0, 0, 0.876586, -3.55995, 27.827782)"><tspan x="13.638" y="17.93">?</tspan><tspan x="13.638" dy="1em">​</tspan><tspan x="13.638" dy="1em">​</tspan></text>
+</svg>

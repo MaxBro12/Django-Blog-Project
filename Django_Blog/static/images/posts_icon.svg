@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+  <rect x="5" y="5" width="40" height="40" style="stroke-linejoin: round; stroke-linecap: round; fill-rule: nonzero; stroke: rgb(221, 221, 221); fill: none;" rx="6.366" ry="6.366"/>
+  <rect x="9" y="9" width="32" height="9.061" style="stroke-width: 10px; fill: rgb(221, 221, 221);" rx="2.122" ry="2.122"/>
+  <rect x="9.063" y="19.795" width="32" height="6.466" style="stroke-width: 10px; fill: rgb(221, 221, 221);" rx="2.122" ry="2.122"/>
+  <rect x="9.17" y="28.603" width="32" height="12.749" style="stroke-width: 10px; fill: rgb(221, 221, 221);" rx="2.122" ry="2.122"/>
+</svg>

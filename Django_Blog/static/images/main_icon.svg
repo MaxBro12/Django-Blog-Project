@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 240 50" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style bx:fonts="Anton">@import url(https://fonts.googleapis.com/css2?family=Anton%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <rect width="240" height="50" style="stroke-width: 10px; stroke: rgba(255, 255, 255, 0); fill: none;"/>
+  <text style="fill: rgb(248, 248, 248); font-family: Anton; font-size: 29.1px; font-style: italic; font-weight: 700; white-space: pre;" x="3.119" y="38.433">Django Blog Project</text>
+</svg>

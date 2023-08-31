@@ -1,0 +1,91 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: rgb(16, 16, 16);
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Pannel cont';
+    src: url('../fonts/Srbija\ Sans.otf');
+}
+
+@keyframes mouse_hover_pannel_b {
+    from {
+        background-color: rgb(52, 52, 52);
+    }
+    to {
+        background-color: rgb(82, 82, 82);
+    }
+}
+
+div.leftpannel {
+    width: 240px;
+    min-height: 100vh;
+
+    background-color: rgb(32, 32, 32);
+    border-radius: 0;
+    border-width: 0;
+
+    padding: 0;
+    margin: 0 auto 0 0;
+}
+
+img.main_icon {
+    width: 240px;
+    height: 50px;
+
+    padding: 0;
+    margin: 0;
+}
+
+img.pannel_icons {
+    width: 35px;
+    height: 35px;
+
+    padding: 0;
+    margin: auto 10px auto 5px;
+}
+
+div.leftpannel>div.pannel_cont, div.leftpannel>div.pannel_cont_b {
+    height: 50px;
+
+    padding: 0px;
+    margin: 5px;
+
+    border-radius: 10px;
+    border-width: 0;
+    background-color: rgb(52, 52, 52);
+
+    display: flex;
+    align-items: center;
+
+    font-size: 22px;
+    font-weight: 1000;
+    font-style: italic;
+    letter-spacing: -0.6px;
+    font-family: 'Pannel cont';
+    color: rgb(223, 223, 223);
+
+    transition: 0.3s ease;
+}
+
+div.leftpannel>div.pannel_cont_b {
+    margin-top: auto;
+    bottom: 0;
+    position: absolute;
+    width: 230px;
+    text-align: center;
+}
+
+div.leftpannel>div.pannel_cont:hover, div.leftpannel>div.pannel_cont_b:hover {
+    background-color: rgb(82, 82, 82);
+    animation-name: mouse_hover_pannel_b;
+    animation-duration: 0.3s;
+}

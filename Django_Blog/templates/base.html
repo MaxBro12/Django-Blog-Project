@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Blog Project</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="leftpannel">
+        <img class="main_icon" src="../static/images/main_icon.png" alt="">
+        
+        {% if login %}
+        <div class="pannel_cont">
+            <img class="pannel_icons" src="../static/images/personal_page.svg" alt="">
+            Моя странница
+        </div>
+        {% endif %}
+        <div class="pannel_cont">
+            <img class="pannel_icons" src="../static/images/posts_icon.svg" alt="">
+            Посты
+        </div>
+        {% if login %}
+        <div class="pannel_cont">
+            <img class="pannel_icons" src="../static/images/new_blog_icon.svg" alt="">
+            Новый пост
+        </div>
+        {% endif %}
+        <div class="pannel_cont">
+            <img class="pannel_icons" src="../static/images/about_icon.svg" alt="">
+            О нас
+        </div>
+
+        <div class="pannel_placeholder"></div>
+
+        {% if login %}
+            <div class="pannel_cont_b">
+                <img class="pannel_icons" src="../static/images/logout_icon.svg" alt="">
+                Выйти
+            </div>
+        {% else %}
+            <div class="pannel_cont_b">
+                <img class="pannel_icons" src="../static/images/login_icon.svg" alt="">
+                Войти
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
