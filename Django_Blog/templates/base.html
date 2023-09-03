@@ -4,12 +4,12 @@
     {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Django Blog Project</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
     <div class="leftpannel">
-        <img class="main_icon" src="../static/images/main_icon.png" alt="">
+        <img class="main_icon" src="../static/images/main_icon.png" alt="" href="{% url 'news' %}">
         
         {% if login %}
         <div class="pannel_cont">
@@ -18,8 +18,10 @@
         </div>
         {% endif %}
         <div class="pannel_cont">
-            <img class="pannel_icons" src="../static/images/posts_icon.svg" alt="">
-            Посты
+            <a href="{% url 'news' %}">
+                <img class="pannel_icons" src="../static/images/posts_icon.svg" alt="">
+                Посты
+            </a>
         </div>
         {% if login %}
         <div class="pannel_cont">
@@ -28,7 +30,7 @@
         </div>
         {% endif %}
         <div class="pannel_cont">
-            <img class="pannel_icons" src="../static/images/about_icon.svg" alt="">
+            <img class="pannel_icons" src="../static/images/about_icon.svg"  alt="">
             О нас
         </div>
 
@@ -45,6 +47,10 @@
                 Войти
             </div>
         {% endif %}
+    </div>
+    <div class="main">
+        {% block content %}
+        {% endblock %}
     </div>
 </body>
 </html>
